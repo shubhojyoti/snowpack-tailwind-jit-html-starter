@@ -1,0 +1,22 @@
+{
+  "name": "snowpack-tailwind-jit-html-starter",
+  "version": "0.0.1",
+  "description": "Snowpack Tailwind JIT HTML Starter",
+  "scripts": {
+    "start": "TAILWIND_DISABLE_TOUCH=true snowpack dev",
+    "build": "TAILWIND_DISABLE_TOUCH=true snowpack build"
+  },
+  "author": "Shubhojyoti Bhattacharya",
+  "license": "MIT",
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.4.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.5",
+    "snowpack": "^3.5.1",
+    "snowpack-plugin-relative-css-urls": "^1.2.0",
+    "tailwindcss": "^2.2.0-canary.9"
+  }
+}
